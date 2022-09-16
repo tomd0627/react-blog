@@ -1,0 +1,45 @@
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+
+  label {
+    text-align: left;
+    display: block;
+  }
+
+  h2 {
+    font-size: 20px;
+    color: $red;
+    margin-bottom: 30px;
+  }
+
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid $off-white-3;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  button {
+    background: $red;
+    color: $white;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+  }
+}

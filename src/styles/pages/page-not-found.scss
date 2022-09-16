@@ -1,0 +1,22 @@
+.not-found {
+  h2 {
+    font-size: 20px;
+    color: $red;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 20px 0;
+  }
+
+  a {
+    background: $red;
+    color: $white;
+    display: inline-block;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}

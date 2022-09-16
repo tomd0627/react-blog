@@ -1,0 +1,26 @@
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid $off-white;
+
+  h1 {
+    color: $red;
+  }
+
+  .links {
+    margin-left: auto;
+  }
+
+  a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+
+    &:hover {
+      color: $red;
+    }
+  }
+}
